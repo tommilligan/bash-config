@@ -1,5 +1,5 @@
 # General
-alias please="sudo !!"
+alias please='sudo $(history -p !!)'
 alias pls="please"
 mkcd () { mkdir ${1} && cd ${1}; }
 
