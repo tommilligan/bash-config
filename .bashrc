@@ -4,6 +4,9 @@ alias pls="please"
 mkcd () { mkdir ${1} && cd ${1}; }
 alias clean="bleachbit --preset"
 
+# Navigate to this repo
+alias bash-config="echo 'bash-config repo location not set'"
+
 # Networking
 alias myip="curl -s http://ipecho.net/plain"
 
