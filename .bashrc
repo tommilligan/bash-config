@@ -1,3 +1,5 @@
+echo "Loaded common bash-config"
+
 # General
 alias please='sudo $(history -p !!)'
 alias pls="please"
