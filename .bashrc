@@ -10,10 +10,10 @@ alias clean="bleachbit --preset"
 alias bash-config="echo 'bash-config repo location not set'"
 
 # Networking
-alias myip="curl -s http://ipecho.net/plain"
+alias myip="curl http://ipecho.net/plain"
 
 # Git
-alias review="git log --oneline --decorate --graph --all"
+alias git-review="git log --oneline --decorate --graph --all"
 ssh-win-init () {
 	env=~/.ssh/agent.env
 
